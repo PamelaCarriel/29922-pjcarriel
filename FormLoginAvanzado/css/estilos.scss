@@ -104,7 +104,6 @@ label {
     left: 13px;
     color: rgba($blanco,.5);
     transition: all 0.25s ease;
-    -webkit-backface-visibility: hidden;
     pointer-events: none;
     font-size: 22px;
 
@@ -183,8 +182,6 @@ input {
     background: $color-principal;
     color: $blanco;
     transition: all .5s ease;
-    -webkit-appearance: none;
-
     &:hover, &:focus {
         background: $color-principal-dark;
     }
